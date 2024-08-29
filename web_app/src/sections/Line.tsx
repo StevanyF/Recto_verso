@@ -1,5 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
+
 export const Line = () => {
     return <section className="py-3 bg-black">
         <div className="container">

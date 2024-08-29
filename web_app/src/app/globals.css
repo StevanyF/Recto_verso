@@ -5,7 +5,7 @@
 
 @layer components {
   .title{
-    @apply text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#000d37] text-transparent bg-clip-text
+    @apply text-center text-3xl md:text-[54px] md:leading-[60px] font-extrabold tracking-tighter bg-gradient-to-b from-black to-[#000d37] text-transparent bg-clip-text
   }
 
   .paragraph{
@@ -22,5 +22,11 @@
 
   .tag {
     @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight
+  }
+
+  .bg_gradient {
+    @apply
+  
+    bg-[radial-gradient(at_center,#FBF0C3,#FFFFFF)]
   }
 }

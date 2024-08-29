@@ -82,14 +82,14 @@ export const Location = () =>{
                   <p className="paragraph mt-5">
                       6 rue Portefoin 75003, <br/> Paris
                   </p>
-                </div>
-               
+                </div>       
+            </div>
+            <div className="flex justify-center gap-2 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] max-h-[738px]">
+              <PicturesColumn pictures={firstColumn} duration={15} />
+              <PicturesColumn pictures={secondColumn} duration={20} className="hidden md:block"/>
+              <PicturesColumn pictures={thirdColumn} duration={16}className="hidden lg:block"/>
             </div>
         </div>
-        <div className="flex justify-center gap-2 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] max-h-[738px]">
-          <PicturesColumn pictures={firstColumn} duration={15} />
-          <PicturesColumn pictures={secondColumn} duration={20} className="hidden md:block"/>
-          <PicturesColumn pictures={thirdColumn} duration={16}className="hidden lg:block"/>
-        </div>
+
     </section>
 }

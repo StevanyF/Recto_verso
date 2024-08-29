@@ -1,6 +1,8 @@
 import CoffeCup from '@/assets/coffee_bg.png'
 import Image from 'next/image'
 
+
+
 export const Hero = () => {
     return <section className="relative overflow-clip pt-8 pb-16 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#FDE68A,#FFFFFF_66%)]" 
     >
